@@ -17,6 +17,5 @@ First you need to generates a private key using any free tool. Any tool can be u
 Then, generates the public key using the private key.
 After that, get the public key components: modulus and and exponent. 
 With only this information, we are supposed to get the private key
-Use msieve to factorize n, a big number, Msive is an implementation of the fastest factorization algorithm known today, GNFS.
 If successful, we have p and q.
 Finally, compares the found key with the original to verify success
